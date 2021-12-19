@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# big files
+/public/concepts
+/public/images
+
 # testing
 /coverage
 
