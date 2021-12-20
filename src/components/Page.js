@@ -24,7 +24,7 @@ const Page = (props) => {
                         if (this.status === 404) { elmnt.innerHTML = "Page not found."; }
                         /* Remove the attribute, and call this function once more: */
                         elmnt.removeAttribute("inject");
-                        if (window.MathJax != undefined) {
+                        if (window.MathJax !== undefined) {
                             console.log("Typesetting!")
                             window.MathJax.typeset();
                         }
@@ -37,7 +37,6 @@ const Page = (props) => {
                 return;
             }
         }
-
 
         // var finished_script = document.createElement("script");
         // finished_script.type = "text/javascript";

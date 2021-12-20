@@ -170,7 +170,7 @@ const concepts = [
       name: "List the weather conditions associated with a warm front and their relevance to snow sports",
       url: "5/h.html"
     },
-    // i?
+    // i is part of e
     j: {
       name: "List the weather conditions associated with a high pressure system and their relevance to snow sports",
       url: "5/j.html"
