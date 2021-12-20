@@ -10,7 +10,7 @@ body {
     background:#fcfcfc;
 }
 
-.container {
+.app-container {
     width:800px;
     margin: 0 auto;
     display:flex;
@@ -118,8 +118,13 @@ body {
 
 /* Semi jank overrides */
 
+.page-content h1,
+.page-content h3 {
+    margin:2em 0 1em 0;
+}
+
 .page-content h4 {
-    margin-bottom:1em;
+    margin:1em 0;
 }
 
 .page-content p {
@@ -127,23 +132,69 @@ body {
     line-height:160%;
 }
 
+.page-content p.keywords {
+    background:rgba(255, 255, 0, 0.466);
+    font-weight:bold;
+}
+
+.page-content p.caption {
+    color:#777;
+}
+
+.page-content img {
+    max-width:100%;
+    height:auto;
+    margin-bottom:1em;
+}
+
 .page-content ul,
 .page-content ol {
+    margin-top:1em;
     margin-left:25px;
     margin-bottom:1em;
 }
 
 .page-content hr {
-    box-sizing: border-box;
-    border:1px solid #EEE;
+    border:none;
+    background:#EEE;
+    height:1px;
     margin:2em 0;
 }
 
+.page-content br {
+    margin-top:-1em;
+}
+
+.page-content blockquote {
+    background:rgb(247, 247, 247);
+    padding:1.5em;
+    box-sizing: border-box;
+    margin-bottom:1em;
+}
+
 .page-content table {
+    height:auto !important;
+    width:100% !important;
     border-collapse: collapse;
+    margin-bottom:1em;    
+    display:block;
+    overflow:auto;
+}
+
+.page-content table h2 {
+    /* should be h4 style */
+    margin:1em 0;
+    font-size:16px;
+}
+
+.page-content table img {
+    max-width:300px !important;
+    height:auto !important;
 }
 
 .page-content table th,
 .page-content table td {
     padding:0.4em;
+    border:1px solid black;
+    
 }
