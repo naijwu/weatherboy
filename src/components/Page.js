@@ -1,3 +1,4 @@
+/* eslint-disable no-loop-func */
 import { Link } from "react-router-dom";
 import React, { useEffect } from "react";
 import { colour } from "../constants"

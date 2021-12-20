@@ -2,7 +2,7 @@
 const colour = [
   "#076FEA", "#076FEA", "#076FEA", "#076FEA", // blue
   "#7849FF", "#7849FF", "#7849FF", // purple
-  "#EAAA07", "#EAAA07", "#EAAA07", "#EAAA07" // orange
+  "#EAAA07", "#EAAA07", "#EAAA07", "#EAAA07", "#EAAA07" // orange
 ]
 
 const topics = [
