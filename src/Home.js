@@ -39,7 +39,7 @@ function Home() {
       displayArray.push(
         <div className="concept">
             <div className="concept-head">
-                {topics[i]}
+                {topic}. {topics[i]}
             </div>
             <div className="subtopics">
                 {subtopics}

@@ -56,15 +56,15 @@ const Page = (props) => {
                         <div 
                           className="left"
                           style={{
-                              background: colour[topic]
+                              background: colour[topic - 1]
                           }}>
                             {topic}
                         </div>
                         <div 
                           className="right"
                           style={{
-                              color: colour[topic],
-                              borderColor: colour[topic]
+                              color: colour[topic - 1],
+                              borderColor: colour[topic - 1]
                           }}>
                             {subtopic}
                         </div>
