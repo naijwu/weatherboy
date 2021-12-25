@@ -1,6 +1,6 @@
 **pestle but for atsc113**
 
-[http://weather-review.web.app](url)
+[weather-review.web.app](https://weather-review.web.app)
 
 roadmap for completion:
 1. using the site files for data [current]
